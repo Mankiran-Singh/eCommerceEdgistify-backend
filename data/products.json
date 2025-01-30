@@ -1,0 +1,93 @@
+[
+    {
+      "price": 4999,
+      "description": "A high-performance wireless gaming mouse with RGB lighting.",
+      "brand": "Logitech",
+      "name": "Logitech G502 Lightspeed",
+      "detail": "Features HERO 25K sensor, 11 programmable buttons, and PowerPlay compatibility.",
+      "quantity": 50,
+      "image": "https://example.com/images/logitech-g502.jpg"
+    },
+    {
+      "price": 899,
+      "description": "Ergonomic mechanical keyboard with customizable RGB lighting.",
+      "brand": "Razer",
+      "name": "Razer BlackWidow V3",
+      "detail": "Equipped with Razer Green Switches for tactile feedback and durability.",
+      "quantity": 30,
+      "image": "https://example.com/images/razer-blackwidow-v3.jpg"
+    },
+    {
+      "price": 29999,
+      "description": "A powerful gaming laptop with RTX 3060 GPU and 144Hz display.",
+      "brand": "Asus",
+      "name": "Asus ROG Strix G15",
+      "detail": "Comes with AMD Ryzen 7, 16GB RAM, 512GB SSD, and Windows 11.",
+      "quantity": 20,
+      "image": "https://example.com/images/asus-rog-strix-g15.jpg"
+    },
+    {
+      "price": 1499,
+      "description": "High-fidelity over-ear headphones with noise cancellation.",
+      "brand": "Sony",
+      "name": "Sony WH-1000XM4",
+      "detail": "Industry-leading noise cancellation and up to 30 hours of battery life.",
+      "quantity": 40,
+      "image": "https://example.com/images/sony-wh-1000xm4.jpg"
+    },
+    {
+      "price": 2499,
+      "description": "Smartwatch with heart rate monitoring and fitness tracking features.",
+      "brand": "Apple",
+      "name": "Apple Watch Series 7",
+      "detail": "Features Always-On Retina display, ECG app, and water resistance.",
+      "quantity": 25,
+      "image": "https://example.com/images/apple-watch-series7.jpg"
+    },
+    {
+      "price": 699,
+      "description": "Portable Bluetooth speaker with deep bass and waterproof design.",
+      "brand": "JBL",
+      "name": "JBL Flip 5",
+      "detail": "12 hours of playtime, rugged IPX7 waterproof design, and party boost feature.",
+      "quantity": 60,
+      "image": "https://example.com/images/jbl-flip5.jpg"
+    },
+    {
+      "price": 1599,
+      "description": "Full HD IPS gaming monitor with 165Hz refresh rate and 1ms response time.",
+      "brand": "Acer",
+      "name": "Acer Nitro VG240YS",
+      "detail": "Supports AMD FreeSync, HDR, and ultra-thin bezels for immersive gaming.",
+      "quantity": 15,
+      "image": "https://example.com/images/acer-nitro-vg240ys.jpg"
+    },
+    {
+      "price": 799,
+      "description": "Portable external SSD with ultra-fast transfer speeds.",
+      "brand": "Samsung",
+      "name": "Samsung T7 Portable SSD",
+      "detail": "Up to 1050MB/s read speed, shock-resistant, and AES 256-bit encryption.",
+      "quantity": 35,
+      "image": "https://example.com/images/samsung-t7-ssd.jpg"
+    },
+    {
+      "price": 3499,
+      "description": "Feature-packed mirrorless camera with 4K video recording.",
+      "brand": "Canon",
+      "name": "Canon EOS M50 Mark II",
+      "detail": "Dual Pixel AF, vari-angle touchscreen, and live streaming capabilities.",
+      "quantity": 10,
+      "image": "https://example.com/images/canon-eos-m50-markii.jpg"
+    },
+    {
+      "price": 1299,
+      "description": "Smart home assistant with voice recognition and IoT support.",
+      "brand": "Google",
+      "name": "Google Nest Hub",
+      "detail": "7-inch touchscreen display, Google Assistant built-in, and smart home controls.",
+      "quantity": 45,
+      "image": "https://example.com/images/google-nest-hub.jpg"
+    }
+  ]
+  
