@@ -2,6 +2,7 @@ const express=require('express');
 const cors=require('cors');
 const authRouter=require('./Routes/authRouter');
 const productsRouter=require('./Routes/productsRouter');
+const cartRouter=require('./Routes/cartRoutes');
 const CustomError = require('./utils/customError');
 const MongoStore = require('connect-mongo');
 const globalErrorHandler=require('./Controllers/errorController')
@@ -19,6 +20,7 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
+app.options('*', cors(corsOptions));
 
 app.use(cookieParser());
 
@@ -40,6 +42,8 @@ app.use(
 app.use('/user',authRouter);
 
 app.use('/products',productsRouter);
+
+app.use('/cart',cartRouter);
 
 app.all('*',(req,res,next)=>{
         const err=new CustomError(`can't find ${req.originalUrl} on the server!`,404)

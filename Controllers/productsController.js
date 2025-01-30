@@ -1,9 +1,7 @@
-const Products=require('../models/productsModel');
+const Product=require('../models/productsModel');
 const asyncErrorHandler=require('./../utils/asyncErrorHandler')
-const jwt=require('jsonwebtoken');
 const CustomError = require('./../utils/customError');
-const ApiFeatures=require('./../utils/ApiFeatures')
-const fs = require('fs');
+
 
 // ✅ Get All Products
 exports.getAllProducts = asyncErrorHandler(async (req, res, next) => {
