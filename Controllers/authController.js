@@ -61,12 +61,13 @@ exports.login = asyncErrorHandler(async (req, res, next) => {
  
  // ✅ Check if user is authenticated
  exports.checkAuth = asyncErrorHandler(async (req, res, next) => {
+  console.log(req.cookies.jwt)
    const token = req.cookies.jwt;
    if (!token) {
      return res.status(401).json({ message: 'Not Authenticated' });
    }
  
-   const decoded = jwt.verify(token, process.env.JWT_SECRET);
+   const decoded = jwt.verify(token, process.env.SECRET_STR);
    const user = await User.findById(decoded.id);
    if (!user) {
      return res.status(401).json({ message: 'User not found' });
